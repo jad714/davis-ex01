@@ -18,7 +18,7 @@ public class Solution01 {
     public static void main(String[] args){
         String greet = "Hello, ";
         Scanner nameRead = new Scanner(System.in);
-        System.out.println("What is your name? ");
+        System.out.print("What is your name? ");
         String name = nameRead.nextLine();
         greet = greet.concat(name);
         System.out.println(greet + ", nice to meet you!");
